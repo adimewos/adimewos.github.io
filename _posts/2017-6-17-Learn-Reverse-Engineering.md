@@ -2,7 +2,7 @@
 layout: post
 title: Learn Reverse Engineering
 description: "Introduction to Reverse Engineering on x86 Linux"
-date: 2016-06-17
+date: 2017-06-17
 tags: [x86, re]
 comments: true
 share: true
