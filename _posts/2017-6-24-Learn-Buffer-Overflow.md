@@ -18,6 +18,7 @@ In short, buffer overflow occurs when the programmer reads input into a buffer t
 
 ## Reading materials
 Hacking: The Art of Exploitation (pages 119-167, 0x320 to 0x342)
+
 This basically covers most of the stuff you need to know about buffer overflow vulnerabilities, and related methods to exploit it to gain remote code execution.
 
 ### Techniques covered
@@ -26,27 +27,31 @@ This basically covers most of the stuff you need to know about buffer overflow v
 * Buffer overflow with environment variables
 * Buffer overflow in the heap
 
-[Slides by RPISEC/MBE](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/5/04_lecture.pdf) Some slides if you want a more visual guide.
+[Slides by RPISEC/MBE](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/5/04_lecture.pdf) 
 
-[Smashing the Stack for Fun and Profit - setuid, ssh and exploit-exercises.com](https://www.youtube.com/watch?v=Y-4WHf0of6Y) Some knowledge about setuid binaries, how to ssh into a remote server, and how to set up the protostar vm.
+Some slides if you want a more visual guide.
+
+[Smashing the Stack for Fun and Profit - setuid, ssh and exploit-exercises.com](https://www.youtube.com/watch?v=Y-4WHf0of6Y) 
+
+Some knowledge about setuid binaries, how to ssh into a remote server, and how to set up the protostar vm.
 
 ## Practice
 Now it's time for some practice.
 
-### [Protostar](https://exploit-exercises.com/protostar/)
-Protostar is the best place to start with. Following the video above, you should be able to set up your protostar VM.
+### Protostar
+[Protostar](https://exploit-exercises.com/protostar/) is the best place to start with. Following the video above, you should be able to set up your protostar VM.
 You should be able to complete stack1 to stack5.
 
 If you are stuck, refer back to the book, which should contain what you need to know. If you are really stuck, you can refer to guides by [LiveOverflow](http://liveoverflow.com/binary_hacking/index.html) (starting from 0x0C)
 
-### [Narnia](http://overthewire.org/wargames/narnia/)
-Narnia is a really nice wargame for you to practice your skills as a beginner. It is slightly harder than protostar as it does not have hints.
+### Narnia
+[Narnia](http://overthewire.org/wargames/narnia/) is a really nice wargame for you to practice your skills as a beginner. It is slightly harder than protostar as it does not have hints.
 
 You should be able to work on narnia0 to narnia4.
 
 If you are stuck with the challlenges, there is an IRC where you can seek help from. I am usually online there with username dows.
 
-### [MBE](https://github.com/RPISEC/MBE)
+### MBE
 If you followed my previous post, there is a link to [MBE](https://github.com/RPISEC/MBE) and instructions on setting up the VM are provided there.
 
 MBE labs are also very good at testing the understanding of a concept, with increasing difficulty, so be sure to finish up Lab02.
