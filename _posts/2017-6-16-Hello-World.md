@@ -1,6 +1,11 @@
 ---
 layout: post
 title: First blog post!
+description: "Introduction to my blog."
+date: 2017-06-16
+tags: [intro]
+comments: true
+share: true
 ---
 
 This blog will mainly consist of my CTF notes and writeups.
