@@ -17,21 +17,21 @@ This post is intended for beginners that are new to the concept of buffer overfl
 In short, buffer overflow occurs when the programmer reads input into a buffer that has a size smaller than the received input. For example, I have a char[] of size 100, but I read in 200 bytes. Basically bad programming.
 
 ## Reading materials
-Hacking: The Art of Exploitation (pages 119-167, 0x320 to 0x342)
+### Hacking: The Art of Exploitation (pages 119-167, 0x320 to 0x342)
 
 This basically covers most of the stuff you need to know about buffer overflow vulnerabilities, and related methods to exploit it to gain remote code execution.
 
-### Techniques covered
+#### Techniques covered
 * Buffer overflow to overwrite variables for authentication
 * Buffer overflow with nop sled and shellcode
 * Buffer overflow with environment variables
 * Buffer overflow in the heap
 
-[Slides by RPISEC/MBE](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/5/04_lecture.pdf) 
+### [Slides by RPISEC/MBE](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/5/04_lecture.pdf) 
 
 Some slides if you want a more visual guide.
 
-[Smashing the Stack for Fun and Profit - setuid, ssh and exploit-exercises.com](https://www.youtube.com/watch?v=Y-4WHf0of6Y) 
+### [Smashing the Stack for Fun and Profit - setuid, ssh and exploit-exercises.com](https://www.youtube.com/watch?v=Y-4WHf0of6Y) 
 
 Some knowledge about setuid binaries, how to ssh into a remote server, and how to set up the protostar vm.
 
