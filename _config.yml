@@ -31,8 +31,8 @@ google-analytics:
   id:               "UA-101205799-2"
 
 # Disqus
-#disqus:
-#  id:               "dowsll"
+disqus:
+  id:               "dowsll"
 
 # URL
 url:                "https://dowsll.github.io" # the base hostname & protocol for your site
