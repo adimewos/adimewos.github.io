@@ -57,7 +57,7 @@ MBE labs are also very good at testing the understanding of a concept, with incr
 ## Final notes
 Buffer overflow is one of the vulnerabilities found in programs, and there are still way more to learn. 
 
-### DEP
+### Data Execution Prevention (DEP)
 While it's fun injecting shellcode and running them, OS developers are definitely not dumb and have came up with mitigations such as [DEP](https://en.wikipedia.org/wiki/Executable_space_protection), where not all parts of a binary are executable.
 
 #### Does that mean no more remote code execution through buffer overflows?
