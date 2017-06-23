@@ -27,13 +27,11 @@ This basically covers most of the stuff you need to know about buffer overflow v
 * Buffer overflow with environment variables
 * Buffer overflow in the heap
 
-### [Slides by RPISEC/MBE](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/5/04_lecture.pdf) 
+### Slides by RPISEC/MBE
+Some [slides](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/5/04_lecture.pdf) if you want a more visual guide.
 
-Some slides if you want a more visual guide.
-
-### [Smashing the Stack for Fun and Profit - setuid, ssh and exploit-exercises.com](https://www.youtube.com/watch?v=Y-4WHf0of6Y) 
-
-Some knowledge about setuid binaries, how to ssh into a remote server, and how to set up the protostar vm.
+### Smashing the Stack for Fun and Profit - setuid, ssh and exploit-exercises.com
+This [video](https://www.youtube.com/watch?v=Y-4WHf0of6Y) provides some knowledge about setuid binaries, how to ssh into a remote server, and how to set up the protostar vm.
 
 ## Practice
 Now it's time for some practice.
