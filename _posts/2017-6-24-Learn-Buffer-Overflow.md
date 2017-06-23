@@ -61,7 +61,7 @@ Buffer overflow is one of the vulnerabilities found in programs, and there are s
 While it's fun injecting shellcode and running them, OS developers are definitely not dumb and have came up with mitigations such as [DEP](https://en.wikipedia.org/wiki/Executable_space_protection), where not all parts of a binary are executable.
 
 #### Does that mean no more remote code execution through buffer overflows?
-Well DEP does prevent us from redirecting eip to run our shellcode, it doesn't stop us from writing stuff. So, through another smart technique called [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming) that still allows us to make use of the code present in the binary. Don't worry, more of these will be covered later.
+Well DEP does prevent us from redirecting eip to run our shellcode, but it doesn't stop us from writing stuff. So, through another smart technique called [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming), we are still able to make use of the code present in the binary. Don't worry, more of these will be covered later.
 
 ### Heap-based buffer overflow
 If you've realised, all of the challenges are stack-based. This is because the eip is located in the stack and so it can be easily overwritten to gain arbitrary code execution.
