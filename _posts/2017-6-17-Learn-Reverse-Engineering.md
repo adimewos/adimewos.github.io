@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Learn Reverse Engineering
+description: "Introduction to Reverse Engineering on x86 Linux"
+date: 2016-06-17
+tags: [x86, re]
+comments: true
+share: true
 ---
 
 This is the first of the series of posts I'll be making on x86 binary exploitation. To start off binary exploitation, I recommend learning reverse engineering on the Linux x86 platform.
