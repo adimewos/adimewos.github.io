@@ -60,7 +60,7 @@ After finishing the crackmes above, you should be able to understand x86 assembl
 
 The README contains pretty well documentation for setting up the VM so it won't be covered here. Once you are done setting up, try to solve the crackmes in the Lab01 folder.
 
-## Final words
+## Final Notes
 These should be sufficient practice to get yourself into x86 reverse engineering. Make sure that you fully understand x86 assembly so that the future parts are easier to grasp.
 
 
