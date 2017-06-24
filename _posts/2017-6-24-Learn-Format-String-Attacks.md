@@ -36,7 +36,9 @@ Some [slides](http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/9/06
 We can do a lot with format string attacks, as we basically are able to overwrite the GOT and take control of the program execution, and leak out whatever addresses we like.
 
 #### Leak addresses
-Sometimes we may need the address of the stack, when dealing with executable-stack challenges where our shellcode is located on the stack. Or, in the future, when dealing with more realistic challenges where the stack is not executable, we can leak the address of `libc` when there is ASLR to perform ROP. (Don't worry, ROP and ASLR will be covered later)
+Sometimes we may need the address of the stack, when dealing with executable-stack challenges where our shellcode is located on the stack. 
+
+Or, in the future, when dealing with more realistic challenges where the stack is not executable, we can leak the address of `libc` when there is ASLR to perform ROP. (Don't worry, ROP and ASLR will be covered later)
 
 #### Create a loop
 Well when there is ASLR, we need to send in our exploit once we leaked the addresses of interest, thus we cannot let the program terminate so soon. To solve this problem, we can just overwrite an insignificant function in the GOT to the part of the program that we would like to repeat, creating a loop for ourselves.
