@@ -54,7 +54,7 @@ If you followed my previous post, there is a link to [MBE](https://github.com/RP
 
 MBE labs are also very good at testing the understanding of a concept, with increasing difficulty, so be sure to finish up Lab02.
 
-## Final notes
+## Final Notes
 Buffer overflow is one of the vulnerabilities found in programs, and there are still way more to learn. 
 
 ### Data Execution Prevention (DEP)
