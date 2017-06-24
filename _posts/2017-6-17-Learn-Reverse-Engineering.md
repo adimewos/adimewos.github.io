@@ -12,7 +12,7 @@ This is the first of the series of posts I'll be making on x86 binary exploitati
 
 This post is intended for beginners that have no experience whatsoever in x86 reverse engineering.
 
-## Learn x86 Assembly
+## Introduction
 Knowledge of x86 Assembly is definitely necessary if you want to do x86 binary exploitation.
 
 I recommend finishing this [playlist](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0) to learn the basics about 32-bit x86 assembly. The course will cover on the basics about the x86 Assembly language, the stack, and discuss the CMUBomb crackme challenge.
