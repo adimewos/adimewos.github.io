@@ -13,7 +13,7 @@ If you have no experience with reverse engineering x86 binaries, you can refer t
 
 This post is intended for beginners that are new to the concept of buffer overflows. To be more precise, stack-based buffer overflow.
 
-## Learn Buffer Overflow
+## Introduction
 In short, buffer overflow occurs when the programmer reads input into a buffer that has a size smaller than the received input. For example, I have a char[] of size 100, but I read in 200 bytes. Basically bad programming.
 
 ## Reading materials
