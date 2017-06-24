@@ -3,7 +3,7 @@ layout: post
 title: Learn Buffer Overflow
 description: "Introduction to Buffer Overflows on x86 Linux"
 date: 2017-06-24
-tags: [x86, pwn, stack]
+tags: [x86, pwn, stack, notes]
 comments: true
 share: true
 ---
