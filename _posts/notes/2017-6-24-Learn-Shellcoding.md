@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn Shellcoding
-permalink: /notes/
+permalink: /notes/learn-shellcoding
 description: "Introduction to Shellcoding on x86 Linux"
 date: 2017-06-24 10:03:23 +0800
 tags: [x86, pwn, stack, shellcoding, notes]

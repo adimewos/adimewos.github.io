@@ -41,8 +41,12 @@ Sometimes we may need the address of the stack, when dealing with executable-sta
 
 Or, in the future, when dealing with more realistic challenges where the stack is not executable, we can leak the address of `libc` when there is ASLR to perform ROP. (Don't worry, ROP and ASLR will be covered later)
 
+This can be done easily by using the `%d` or `%x` format specifier, and using direct parameter access to choose the offset from the current `esp`.
+
 #### Create a loop
-Well when there is ASLR, we need to send in our exploit once we leaked the addresses of interest, thus we cannot let the program terminate so soon. To solve this problem, we can just overwrite an insignificant function in the GOT to the part of the program that we would like to repeat, creating a loop for ourselves.
+Well when there is ASLR, we need to send in our exploit once we leaked the addresses of interest, thus we cannot let the program terminate so soon. 
+
+To solve this problem, we can just overwrite an insignificant function in the GOT to the part of the program that we would like to repeat, creating a loop for ourselves.
 
 ## Practices
 I recommend to practice in the following order.
