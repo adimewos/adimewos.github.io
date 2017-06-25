@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn Format String Attacks
-permalink: /notes/
+permalink: /notes/learn-format-string-attacks
 description: "Introduction to Format String Attacks on x86 Linux"
 date: 2017-06-24 18:31:31 +0800
 tags: [x86, pwn, stack, fsb, notes]

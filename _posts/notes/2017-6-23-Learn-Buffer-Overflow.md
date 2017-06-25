@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn Buffer Overflow
-permalink: /notes/
+permalink: /notes/learn-buffer-overflow
 description: "Introduction to Buffer Overflows on x86 Linux"
 date: 2017-06-23
 tags: [x86, pwn, stack, notes]
