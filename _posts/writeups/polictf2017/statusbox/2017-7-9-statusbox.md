@@ -3,7 +3,7 @@ layout: post
 title: PoliCTF 2017 - Status Box
 permalink: /writeups/polictf2017/statusbox
 description: "Writeup for Status Box challenge from PoliCTF 2017"
-date: 2017-07-08
+date: 2017-07-09
 tags: [blackbox, pwn, polictf, writeup]
 comments: true
 share: true
