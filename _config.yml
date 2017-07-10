@@ -59,6 +59,8 @@ nav:
     url:            "/about"
   - name:           "Archive"
     url:            "/archive"
+  - name:           "Writeups"
+    url:            "/writeups"
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
