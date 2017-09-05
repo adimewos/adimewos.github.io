@@ -40,7 +40,7 @@ Say we have a message of length 8 and key of length 3.
 ### Chaining
 Other than xoring with the key, each character is also added by the character before it followed by modulo 128. This starts by having a random character at the start of the encrypted message.
 
-So, in the end we have `encrypted += chr((ord(message[i]) + ord(key[i % len(key)]) + ord(encrypted[i])) % 128)`
+So, in the end we have `encrypted += chr((ord(message[i]) + ord(key[i % len(key)]) + ord(encrypted[i])) % 128)`.
 
 ## Decryption
 ### Chaining
