@@ -13,10 +13,10 @@ share: true
 >
 > This my first cipher system. Can you break it?
 >
-> [my-simple-cipher.7z]();
+> [my-simple-cipher.7z](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/my-simple-cipher.7z-bb72c6605237320dfaf8eb3459e8806d27ceb73f118224ec3acbf5f77aa836d1);
 
 ## Challenge
-Looking at the given [cipher.py]() file, we can see that this is something like a shift cipher with a key of length 13, used with something like CBC (Cipher Block Chaining). We need to decrypt the given message of length 36.
+Looking at the given [cipher.py](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/cipher.py) file, we can see that this is something like a shift cipher with a key of length 13, used with something like CBC (Cipher Block Chaining). We need to decrypt the given message of length 36.
 
 ## Operations
 ```
@@ -34,7 +34,7 @@ The message is in the form of `flag|message`. Then, there are two parts to the e
 Firstly, they have a key of length 13. Each character in the message is added by the corresponding character in the key followed by modulo 128. Since the key is shorter than the message, when we reach the end of the key we go back to the start of the key.
 
 Say we have a message of length 8 and key of length 3.
-![encrypt.png]()
+![encrypt.png](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/encrypt.png)
 
 ### Chaining
 Other than xoring with the key, each character is also added by the character before it followed by modulo 128. This starts by having a random character at the start of the encrypted message.
@@ -82,7 +82,7 @@ print message
 
 We get `TWCTF{Crypto-is-fun!}|ENJ0YHOLIDAY!`
 
-Full script [here]()
+Full script [here](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/decipher.py)
 
 ## Remarks
 Actually weirdly i got `PWCTF{Crypto-is-fun!}|ENJ0YHOLIDAY!` as the decrypted message, maybe there was a mistake somewhere in my code...
