@@ -34,6 +34,7 @@ The message is in the form of `flag|message`. Then, there are two parts to the e
 Firstly, they have a key of length 13. Each character in the message is added by the corresponding character in the key followed by modulo 128. Since the key is shorter than the message, when we reach the end of the key we go back to the start of the key.
 
 Say we have a message of length 8 and key of length 3.
+
 ![encrypt.png](https://raw.githubusercontent.com/dowsll/dowsll.github.io/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/encrypt.png)
 
 ### Chaining
