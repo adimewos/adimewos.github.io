@@ -2,7 +2,7 @@
 layout: post
 title: Tokyo Westerns CTF 3rd 2017 - My Simple Cipher
 permalink: /writeups/tokyowesternctf2017/mysimplecipher
-description: "Writeup for Status Box challenge from PoliCTF 2017"
+description: "Writeup for My Simple Cipher challenge from TWCTF 2017"
 date: 2017-09-05
 tags: [tokyowesternctf2017, crypto, writeup]
 comments: true
