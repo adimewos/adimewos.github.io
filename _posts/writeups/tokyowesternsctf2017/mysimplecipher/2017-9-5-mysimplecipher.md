@@ -18,7 +18,7 @@ share: true
 ## Challenge
 Looking at the given [cipher.py](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/cipher.py) file, we can see that this is something like a shift cipher with a key of length 13, used with something like CBC (Cipher Block Chaining). We need to decrypt the given message of length 36.
 
-## Operations
+## Encryption
 ```
 message = flag + "|" + key
 
@@ -41,7 +41,7 @@ Other than xoring with the key, each character is also added by the character be
 
 So, in the end we have `encrypted += chr((ord(message[i]) + ord(key[i % len(key)]) + ord(encrypted[i])) % 128)`
 
-## Decrypt
+## Decryption
 ### Chaining
 First, I removed the chaining encryption by subtracting each character by its previous character followed by modulo 128 in the encrypted message, starting from the last character.
 
