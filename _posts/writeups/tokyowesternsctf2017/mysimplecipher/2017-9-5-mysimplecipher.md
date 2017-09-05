@@ -13,7 +13,7 @@ share: true
 >
 > This my first cipher system. Can you break it?
 >
-> [my-simple-cipher.7z](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/my-simple-cipher.7z-bb72c6605237320dfaf8eb3459e8806d27ceb73f118224ec3acbf5f77aa836d1)
+> [my-simple-cipher.7z](https://github.com/dowsll/dowsll.github.io/raw/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/my-simple-cipher.7z-bb72c6605237320dfaf8eb3459e8806d27ceb73f118224ec3acbf5f77aa836d1)
 
 ## Challenge
 Looking at the given [cipher.py](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/cipher.py) file, we can see that this is something like a shift cipher with a key of length 13, used with something like CBC (Cipher Block Chaining). We need to decrypt the given message of length 36.
