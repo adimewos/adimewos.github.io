@@ -85,4 +85,4 @@ We get `TWCTF{Crypto-is-fun!}|ENJ0YHOLIDAY!`
 Full script [here](https://github.com/dowsll/dowsll.github.io/blob/master/_posts/writeups/tokyowesternsctf2017/mysimplecipher/decipher.py)
 
 ## Remarks
-Actually weirdly i got `PWCTF{Crypto-is-fun!}|ENJ0YHOLIDAY!` as the decrypted message, maybe there was a mistake somewhere in my code...
+Actually weirdly i got `PWCTF{Crypto-is-fun!}|ENJ0YHOLIDAY!` as the decrypted message, maybe there was a mistake somewhere in my code\.\.\.
