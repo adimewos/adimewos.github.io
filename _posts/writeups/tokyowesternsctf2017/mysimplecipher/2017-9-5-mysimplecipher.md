@@ -56,7 +56,7 @@ for i in range(len(s) - 1, 1, -1):
 ### Shifting
 Now we got that cleared, we need to find the 13 byte key to get back our original message. Since the message is in the form of `flag|key`, we can make use of the fact that there is a `|` character at the 23th position (36 - 13 = 23).
 
-With this knowledge, we can know get the 10th character of the key, since it was used to encrypt the 23th character from '|' to whatever it is in the encrypted form.
+With this knowledge, we can know get the 10th character of the key, since it was used to encrypt the 23th character from `|` to whatever it is in the encrypted form.
 
 After doing so, we now know the 10th character of the key, and since it is also encrypted in the message, we can do the same thing as above. We repeat until we recover the entire key.
 
