@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-> ### Case Notes 
+> ### Problem 
 >
 > This my first cipher system. Can you break it?
 >
