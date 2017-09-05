@@ -50,7 +50,6 @@ First, I removed the chaining encryption by subtracting each character by its pr
 dec1 = [ord(c) for c in s]  
 for i in range(len(s) - 1, 1, -1):
   dec1[i] = (dec1[i] - dec1[i-1]) % 128
-dec1 = dec1[1:]
 ```
 
 ### Shifting
