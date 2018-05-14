@@ -7,5 +7,5 @@ permalink: /writeups/tokyowesternsctf2017/
 ---
 
 ### Writeups
- - [My Simple Cipher](https://dowsll.github.io/writeups/tokyowesternsctf2017/mysimplecipher) (crypto)
+ - [My Simple Cipher](https://adimewos.github.io/writeups/tokyowesternsctf2017/mysimplecipher) (crypto)
 

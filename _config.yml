@@ -3,28 +3,28 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "dowsll"
+name:               "adimewos"
 
 author:
 #  facebook:         your-id
 #  youtubeUser:      your-id
 #  youtubeChannel:   your-id
 #  twitter:          your-id
-  github:           dowsll
+  github:           adimewos
 #  stackoverflow:    your-id
 #  quora:            your-id
 #  linkedin:         your-id
 #  pinterest:        your-id
 #  googlePlus:       your-id
 #  instagram:        your-id
-  reddit:           dowsll
+  reddit:           adimewos
 #  medium:           your-id
 #  tumblr:           your-id
   email:            daniellim0611.com
 
 copyright:
   year:             2017
-  name:             dowsll
+  name:             adimewos
 
 # Google-analytics
 google-analytics:
@@ -32,10 +32,10 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "dowsll"
+  id:               "adimewos"
 
 # URL
-url:                "https://dowsll.github.io" # the base hostname & protocol for your site
+url:                "https://adimewos.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
@@ -66,7 +66,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/dowsll/dowsll.github.io"
+    url:            "https://github.com/adimewos/adimewos.github.io"
 
 # Sass
 sass:

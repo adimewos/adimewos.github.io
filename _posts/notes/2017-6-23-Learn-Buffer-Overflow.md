@@ -10,7 +10,7 @@ share: true
 ---
 
 This post will be a compilation of resources and challenges to learn buffer overflow.
-If you have no experience with reverse engineering x86 binaries, you can refer to my previous [post](https://dowsll.github.io/2017-06-17/Learn-Reverse-Engineering/) on learning reverse engineering.
+If you have no experience with reverse engineering x86 binaries, you can refer to my previous [post](https://adimewos.github.io/2017-06-17/Learn-Reverse-Engineering/) on learning reverse engineering.
 
 This post is intended for beginners that are new to the concept of buffer overflows. To be more precise, stack-based buffer overflow.
 

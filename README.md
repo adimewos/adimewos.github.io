@@ -1,1 +1,1 @@
-Repository for [dowsll.github.io](https://dowsll.github.io)
+Repository for [adimewos.github.io](https://adimewos.github.io)

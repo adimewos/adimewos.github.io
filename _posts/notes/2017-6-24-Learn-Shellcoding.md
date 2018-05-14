@@ -10,7 +10,7 @@ share: true
 
 ---
 
-This post is a continuation of the [Learn Buffer Overflow](https://dowsll.github.io/2017-06-24/Learn-Buffer-Overflow/) post, but covers more on crafting our shellcode than just using shellcode from shellstorm or exploit-db.
+This post is a continuation of the [Learn Buffer Overflow](https://adimewos.github.io/2017-06-24/Learn-Buffer-Overflow/) post, but covers more on crafting our shellcode than just using shellcode from shellstorm or exploit-db.
 
 If you do not know what is a buffer overflow vulnerability, please have a look at my previous post first.
 

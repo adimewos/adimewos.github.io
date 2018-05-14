@@ -7,10 +7,10 @@ My notes and some really nice CTF Writeups
 
 ## My notes
 ### Learning x86 Linux Binary Exploitation
-- [Learn Reverse Engineering](https://dowsll.github.io/notes/learn-reverse-engineering)
-- [Learn Buffer Overflow](https://dowsll.github.io/notes/learn-buffer-overflow)
-- [Learn Shellcoding](https://dowsll.github.io/notes/learn-shellcoding)
-- [Learn Format String Attack](https://dowsll.github.io/notes/learn-format-string-attacks)
+- [Learn Reverse Engineering](https://adimewos.github.io/notes/learn-reverse-engineering)
+- [Learn Buffer Overflow](https://adimewos.github.io/notes/learn-buffer-overflow)
+- [Learn Shellcoding](https://adimewos.github.io/notes/learn-shellcoding)
+- [Learn Format String Attack](https://adimewos.github.io/notes/learn-format-string-attacks)
 
 ## Nice writeups
 ### Pwn
